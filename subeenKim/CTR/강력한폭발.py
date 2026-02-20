@@ -19,6 +19,7 @@ def bomb_kind(temp_list):
         temp_list.pop()
 
 # 폭탄이 놓이는 위치 모으기
+bomb_loc = []
 bomb_loc = deque([])
 for i in range(n):
     for j in range(n):
